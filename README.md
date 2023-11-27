@@ -23,9 +23,11 @@ O projeto JAVA é uma Simulação de 2 instituições financeiras (Bancos 1 e 2)
 O banco de dados possui duas tabelas: Conta e Conta2. Que representam os Bancos 1 e 2 respectivamente e considerando o trataemento de acesso concorrente, temos:
 
 Conta (Banco1) - sem lock
-| ID | NOME_CLIENTE | SALDO |
+
+| ID | NOME_CLIENTE | SALDO | |----------|:-------------:|------:|
 
 Conta2 (Banco2) - Lock Otimista
+
 | ID | NOME_CLIENTE | SALDO | Version |
 
 OBS: O arquivo pop_data.sql possui os scrpts para criação das tabelas Conta e Conta2.
