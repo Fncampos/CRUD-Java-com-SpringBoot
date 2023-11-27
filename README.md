@@ -26,7 +26,7 @@ Conta (Banco1) - sem lock
 
 | ID | NOME_CLIENTE | SALDO |
 | ----------:|---------:| ------:|
-| hhhh | ikkkkk | kkkk |
+
 Conta2 (Banco2) - Lock Otimista
 
 | ID | NOME_CLIENTE | SALDO | Version |
