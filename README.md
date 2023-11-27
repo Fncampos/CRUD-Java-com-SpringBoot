@@ -54,7 +54,7 @@ Fazer o restante das operações bancárias básicas.
   Este projeto é parte de uma atividade acadêmica do Curso Tecnologia em Análise e Desenvolvimentode Sistemas - IFPA - 3º semestre - matéria Sistemas distribuidos, ministrada pelo Profº Cláudio Martins
 Israel Costa e Flávia Campos
 
-Este projeto é parte de uma atividade acadêmica do Curso Tecnologia em Análise e Desenvolvimentode Sistemas - IFPA - 4º semestre - Disciplina aplicação de Bancos de Dados, ministrada pelo Profº Cláudio Martins
+Este projeto é parte de uma atividade acadêmica do Curso Tecnologia em Análise e Desenvolvimentode Sistemas - IFPA - 4º semestre - Disciplina aplicação de Bancos de Dados, ministrada pelo Profº [Cláudio Martins](https://github.com/cmartins-ifpa)
 
 
 
