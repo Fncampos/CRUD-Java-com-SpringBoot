@@ -30,6 +30,7 @@ Conta (Banco1) - sem lock
 Conta2 (Banco2) - Lock Otimista
 
 | ID | NOME_CLIENTE | SALDO | Version |
+|-------:|-------:|------:|------:|
 
 OBS: O arquivo pop_data.sql possui os scrpts para criação das tabelas Conta e Conta2.
 Atenção para substituir o spring.datasource.url do Banco no arquivo application.properties
