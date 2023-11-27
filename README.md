@@ -6,7 +6,8 @@ Este projeto JAVA é uma Simulação de conta Bancária, considerando apenas as 
 
 ### Objetivo: 
 Simular o acesso concorrente ao banco de dados demonstrando as diferenças entre os tratamentos Sem Lock e Lock Otimista. 
-No projeto Banco 1 não é aplicado tratamento de bloqueio(sem Lock), já no projeto Banco 2 é aplicado o tratamento Lock Otimista, onde é utilizada a anotação @Version no projeto Spring e acrescentada na tabela do DB o campo "versão". Desta forma a cada alteração do registro é adicionado automaticamente dados de versionamento, como data e hora, ao campo versão.
+No projeto temos o Banco 1,onde não é aplicado tratamento de bloqueio(sem Lock), e o Banco 2, onde é aplicado o tratamento Lock Otimista. 
+No banco2 é utilizada a anotação @Version no projeto Spring e acrescentada mais uma tabela ao DBH2, chamada Conta2 e também é adiconado o campo "versão". Desta forma a cada alteração do registro é escrito automaticamente dados de versionamento, como data e hora, ao campo versão.
 
 ### Tecnologias utilizadas:
 1. Java com Spring Boot
@@ -16,7 +17,9 @@ No projeto Banco 1 não é aplicado tratamento de bloqueio(sem Lock), já no pro
 ### Descrição:
 1. Java com Spring Boot:
    
-O projeto JAVA é uma Simulação de 2 instituições financeiras (Bancos 1 e 2), considerando apenas as funções de Deposito e Saque. Com a organização de pastas:
+O projeto JAVA é uma Simulação de 2 instituições financeiras (Bancos 1 e 2), considerando apenas as funções de Depósito e Saque. 
+
+Com a organização de pastas:
 
 ![projeto Banco](img/pastas.png)
 
