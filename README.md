@@ -18,6 +18,7 @@ O projeto JAVA é uma Simulação de 2 instituições financeiras (Bancos 1 e 2)
 
 ******IMagem pastas*****
 2. Banco H2
+
 O banco de dados possui duas tabelas: Conta e Conta2. Que representam os Bancos 1 e 2 respectivamente e considerando o trataemento de acesso concorrente, temos:
 
 Conta (Banco1) - sem lock
@@ -27,13 +28,14 @@ Conta2 (Banco2) - Lock Otimista
 | ID | NOME_CLIENTE | SALDO | Version |
 
 OBS: O arquivo pop_data.sql possui os scrpts para criação das tabelas Conta e Conta2.
+Atenção para substituir o spring.datasource.url do Banco no arquivo application.properties
 
 3. Jmetter para testar acesso concorrente
 A ferramenta Jmetter foi utilizada para testes de várias solicitações de acesso ao banco ao mesmo tempo, com o objetivo de simular o acesso concorrente e verificar as diferenças de comportamento no Banco1 - sem lock e no Banco2 - Lock Otimista. Para esse teste escolhi fazer 100 requisições de saque ao Banco 1, com valor de R$ 1,00 em uma conta que eu havia setado anteriormente o saldo de R$100,00. De mesmo mode repeti a operação para uma conta do Banco2.
 
-OBS: O arquivo jmeter como o teste feito está na pasta testejmeter/retirada.jmx
+OBS: O arquivo jmeter com o teste feito está em retirada.jmx
 
-#### Resultados
+
 
 
 
