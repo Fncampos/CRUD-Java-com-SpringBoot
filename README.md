@@ -1,7 +1,7 @@
 # CRUD-Java-com-SpringBoot
 
 ### Sobre:
-O projeto JAVA é uma Simulação de conta Bancária, considerando apenas as funções de Deposito e Saque.
+Este projeto JAVA é uma Simulação de conta Bancária, considerando apenas as funções de Deposito e Saque.
 
 ### Objetivo: 
 Simular o acesso concorrente ao banco de dados demonstrando as diferenças entre os tratamentos Sem Lock e Lock Otimista. 
@@ -16,7 +16,8 @@ No projeto Banco 1 não é aplicado tratamento de bloqueio(sem Lock), já no pro
 1. Java com Spring Boot
 O projeto JAVA é uma Simulação de 2 instituições financeiras (Bancos 1 e 2), considerando apenas as funções de Deposito e Saque. Com a organização de pastas:
 
-******IMagem pastas*****
+![projeto Banco](img/Captura de tela de 2023-11-27 09-14-04.png)
+
 2. Banco H2
 
 O banco de dados possui duas tabelas: Conta e Conta2. Que representam os Bancos 1 e 2 respectivamente e considerando o trataemento de acesso concorrente, temos:
