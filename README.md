@@ -24,7 +24,8 @@ O banco de dados possui duas tabelas: Conta e Conta2. Que representam os Bancos 
 
 Conta (Banco1) - sem lock
 
-| ID | NOME_CLIENTE | SALDO ||----------|:-------------:|------:|
+| ID | NOME_CLIENTE | SALDO |
+|----------|:-------------:|------:|
 
 Conta2 (Banco2) - Lock Otimista
 
