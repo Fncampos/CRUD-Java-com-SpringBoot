@@ -54,8 +54,6 @@ A ferramenta Jmetter foi utilizada para testes de várias solicitações de aces
  [Flávia Campos](https://github.com/Fncampos) e 
  [Israel Costa](https://github.com/israel1608)
 
-  Este projeto é parte de uma atividade acadêmica do Curso Tecnologia em Análise e Desenvolvimentode Sistemas - IFPA - 3º semestre - matéria Sistemas distribuidos, ministrada pelo Profº Cláudio Martins
-Israel Costa e Flávia Campos
 
 Este projeto é parte de uma atividade acadêmica do Curso Tecnologia em Análise e Desenvolvimentode Sistemas - IFPA - 4º semestre - Disciplina aplicação de Bancos de Dados, ministrada pelo Profº [Cláudio Martins](https://github.com/cmartins-ifpa)
 
