@@ -25,7 +25,7 @@ Com a organização de pastas:
 
 2. Banco H2:
 
-O banco de dados possui duas tabelas: Conta e Conta2. Que representam os Bancos 1 e 2 respectivamente e considerando o trataemento de acesso concorrente, temos:
+O banco de dados possui duas tabelas: Conta e Conta2. Que representam os Bancos 1 e 2 respectivamente e tem as tabelas e o tratamento de acesso concorrente, como descrito a seguir:
 
 Conta (Banco1) - sem lock
 | ID | NOME_CLIENTE | SALDO |
