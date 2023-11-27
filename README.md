@@ -46,8 +46,8 @@ A ferramenta Jmetter foi utilizada para testes de várias solicitações de aces
 
 ### Melhorias Futuras:
 
-Fazer page para entrada e recuparação de dados, com JS e CSS considenrando UX e UI.
-Fazer o restante das operações bancárias básicas.
+* Fazer page para entrada e recuparação de dados, com JS e CSS considenrando UX e UI.
+* Fazer o restante das operações bancárias básicas.
 
 ###  Autores
 
