@@ -48,7 +48,7 @@ Fazer o restante das operações bancárias básicas.
 
 ###  Autores
 
- [Flávia Campos](https://github.com/Fncampos)
+ [Flávia Campos](https://github.com/Fncampos) e 
  [Israel Costa](https://github.com/israel1608)
 
   Este projeto é parte de uma atividade acadêmica do Curso Tecnologia em Análise e Desenvolvimentode Sistemas - IFPA - 3º semestre - matéria Sistemas distribuidos, ministrada pelo Profº Cláudio Martins
